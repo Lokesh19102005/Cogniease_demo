@@ -121,7 +121,6 @@ h1, h2, h3, p { margin-top: 0; }
 
 .section-pad { padding: 112px 0; }
 .section-kicker { display: flex; align-items: center; gap: 11px; color: #748681; }
-.section-number { color: #a6b3aa; font-family: var(--serif); font-size: 14px; font-weight: 400; letter-spacing: 0; }
 .intro-section { background: #fff; }
 .intro-grid { display: grid; grid-template-columns: 180px 1fr; gap: 40px; }
 .intro-content { display: grid; grid-template-columns: 1.1fr .7fr; gap: 55px; align-items: end; }
@@ -196,7 +195,6 @@ h1, h2, h3, p { margin-top: 0; }
 .institution-section { overflow: hidden; color: white; background: #1c4844; }
 .institution-head { display: flex; justify-content: space-between; align-items: end; gap: 50px; margin-bottom: 48px; }
 .section-kicker-light { color: #b2c9bd; }
-.section-kicker-light .section-number { color: #84a79a; }
 .institution-head h2 { margin-top: 18px; font-size: clamp(37px, 4.6vw, 57px); }
 .institution-head h2 em { color: #d9ed94; }
 .institution-copy { width: min(390px, 43%); padding-bottom: 4px; }
@@ -207,7 +205,6 @@ h1, h2, h3, p { margin-top: 0; }
 .institution-card { position: relative; min-height: 205px; padding: 21px; border: 1px solid rgba(223,238,223,.2); border-radius: 12px; background: rgba(255,255,255,.055); transition: background .2s, transform .2s; }
 .institution-card:hover { transform: translateY(-3px); background: rgba(255,255,255,.09); }
 .institution-card-featured { border-color: rgba(217,237,148,.55); background: rgba(217,237,148,.1); }
-.institution-card-num { position: absolute; top: 19px; right: 20px; color: #9db8aa; font-family: var(--serif); font-size: 13px; }
 .institution-card-icon { width: 34px; height: 34px; display: grid; place-items: center; border-radius: 9px; color: #daecad; background: rgba(255,255,255,.09); }
 .institution-card-icon .icon { width: 17px; height: 17px; }
 .institution-card h3 { margin: 24px 0 7px; color: white; font-size: 15px; letter-spacing: -.2px; }
@@ -273,7 +270,6 @@ h1, h2, h3, p { margin-top: 0; }
 .portal-tag { color: #80918a; font-size: 8px; font-weight: 750; letter-spacing: 1.25px; }
 .portal-card h3 { margin: 23px 0 6px; font-size: 18px; letter-spacing: -.4px; }.portal-card > p { max-width: 270px; margin-bottom: 21px; color: #75837c; font-size: 11px; line-height: 1.65; }
 .portal-link { display: inline-flex; align-items: center; gap: 11px; margin-top: auto; color: var(--pine); font-size: 10px; font-weight: 750; }.portal-link .icon { width: 14px; height: 14px; }
-.portal-card-decoration { position: absolute; right: 18px; bottom: 10px; color: rgba(70,107,87,.07); font-family: var(--serif); font-size: 56px; line-height: 1; }
 .contact-line { display: flex; align-items: center; gap: 13px; margin-top: 18px; padding: 15px 17px; border: 1px solid #e1e8de; border-radius: 10px; background: rgba(255,255,255,.65); }
 .contact-line-mark { width: 30px; height: 30px; display: grid; place-items: center; border-radius: 9px; color: var(--pine); background: #e6f1e5; }.contact-line-mark .icon { width: 16px; height: 16px; }
 .contact-line > span:nth-child(2) { display: grid; line-height: 1.4; }.contact-line b { font-size: 10px; }.contact-line small { color: #829088; font-size: 9px; }
