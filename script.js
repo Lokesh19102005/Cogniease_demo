@@ -34,7 +34,8 @@ const revealGroups = [
   ['#research > .container > .section-kicker', 'reveal-label'],
   ['#students .section-heading-row, #explore .explore-heading', 'reveal-title'],
   ['#research .research-intro', 'reveal-left'],
-  ['#research .research-note, #psychiatrists .psychiatrist-visual', 'reveal-scale'],
+  ['#research .research-note', 'reveal-scale'],
+  ['#psychiatrists .psychiatrist-visual', 'reveal-left'],
   ['#psychiatrists .psychiatrist-copy', 'reveal-right'],
   ['#research .research-stat', 'reveal-card'],
   ['#students .feature-card', 'reveal-card'],
@@ -57,9 +58,9 @@ if ('IntersectionObserver' in window) {
 
   revealTargets.forEach(({ element, motion, order }) => {
     element.classList.add(motion);
-    element.style.setProperty('--reveal-delay', `${Math.min(order, 4) * 70}ms`);
+    element.style.setProperty('--reveal-delay', `${Math.min(order, 4) * 100}ms`);
     if (motion === 'reveal-slide') {
-      element.style.setProperty('--reveal-offset', order % 2 ? '-28px' : '28px');
+      element.style.setProperty('--reveal-offset', order % 2 ? '-44px' : '44px');
     }
     revealObserver.observe(element);
   });
