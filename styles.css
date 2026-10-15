@@ -437,7 +437,7 @@ section[id] { scroll-margin-top: 88px; }
 .primary-nav > a:not(.nav-cta):hover { color: var(--pine); }
 .nav-cta { border-radius: 10px; background: #103d39; box-shadow: 0 7px 16px rgba(14,57,53,.13); }
 .nav-cta:hover { background: #176454; }
-.hero { display: flex; flex-direction: column; min-height: calc(100svh - 78px); padding: 0; color: #f5faf6; background: #0b2027; }
+.hero { display: flex; flex-direction: column; min-height: calc(100svh - 78px); padding: 0; color: #f5faf6; background: linear-gradient(112deg, #1d4147 0%, #183840 56%, #1d463e 100%); }
 .hero::before { opacity: .18; background-image: linear-gradient(rgba(190,228,207,.16) 1px, transparent 1px), linear-gradient(90deg, rgba(190,228,207,.16) 1px, transparent 1px); background-size: 54px 54px; mask-image: linear-gradient(90deg, #000, transparent 90%); }
 .hero-orb-one { background: radial-gradient(circle, rgba(112,197,145,.32), transparent 68%); animation: ambient-drift 12s ease-in-out infinite alternate; }
 .hero-orb-two { background: radial-gradient(circle, rgba(73,138,173,.23), transparent 70%); animation: ambient-drift 15s ease-in-out -5s infinite alternate-reverse; }
